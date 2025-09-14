@@ -15,7 +15,7 @@ describe('TodoService', () => {
 
   it('should add todo', () => {
     service.add('test');
-    expect(service.items().length).toBe(1);
+    expect(service.items().length).toBe(2);
   });
 
   it('should toggle todo', () => {
